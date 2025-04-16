@@ -1,0 +1,12 @@
+---
+title: "SDM_data_cleansing"
+author: "R.Welch"
+date: "2025-04-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Run raw files from SDM registry through this script to produce usable, clean 'icahalldata' output.
