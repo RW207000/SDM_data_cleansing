@@ -10,5 +10,29 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Run raw files from SDM registry through this script to produce usable, clean 'icahalldata' output.
-Ok.
-Ok #2
+
+libraries
+```{r : reading libraries, include= FALSE}
+packages <- c("tidyverse", "readxl", "dplyr", "magrittr", "mixtools", "emmeans", "readr","data.table", "lubridate", "ggplot2", "magrittr", "skimr", "ggstatsplot","summarytools", "knitr", "here", "ggthemes", "ggthemes", "Amelia", "tidyr", "naniar", "stringr")
+
+lapply(packages, library, character.only = TRUE)
+```
+
+```{r : reading in data}
+participants <- read.csv("C:/Users/md1rwe/Documents/R work/SDM_data_cleansing/data/CAH Core + Longitudinal UK 07.04.24 - shared with PI.csv", header=T, na.strings="")
+
+# allvisits <- read.csv("data/CO-ID_202311_NK longitudinal data 02.09.24.csv", header=T, na.strings="")
+
+# ae
+
+medication <- read.csv("C:/Users/md1rwe/Documents/R work/SDM_data_cleansing/data/CAH Glucocorticoids Data UK 07.04.25 shared with PI.csv", header=T, na.strings="NULL")
+
+# fludro
+
+labs <- read.csv("C:/Users/md1rwe/Documents/R work/SDM_data_cleansing/data/CAH Labs UK 07.04.25 shared with PI.csv", header=T, na.strings="NULL")
+```
+
+
+
+
+
