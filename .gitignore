@@ -1,0 +1,16 @@
+.Rproj.user/
+
+# ignore data folder
+data/
+
+#ignore outputs folder
+outputs/
+
+#ignore .RData
+.RData
+
+#ignore notes.txt
+notes.txt
+
+#ignore .Rhistory
+.Rhistory
