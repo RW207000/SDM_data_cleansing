@@ -10,3 +10,4 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 Run raw files from SDM registry through this script to produce usable, clean 'icahalldata' output.
+Ok.
